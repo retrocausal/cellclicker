@@ -1,0 +1,53 @@
+* {
+  box-sizing: border-box;
+  font-size: medium;
+  font-family: monospace;
+}
+
+body {
+  background-color: #666;
+}
+
+header,
+footer,
+main {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  margin: auto;
+  justify-content: space-around;
+}
+
+.grid {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  box-shadow: 0 0 0.5em 0 #000;
+}
+
+.slot {
+  width: 33.33%;
+  min-height: 5em;
+  box-shadow: 0 0 0.1em 0 #000;
+}
+
+.lit {
+  background-color: #eee;
+}
+
+.panel {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  color: #fff;
+}
+
+.timer {
+  width: 33.33%;
+}
+
+.timer-head {
+  width: 33.33%;
+  font-weight: bold;
+}
