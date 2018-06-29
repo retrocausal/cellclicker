@@ -9,3 +9,9 @@
  The project required:
   - Object oriented desing
   - Lack of frameworks or libraries
+  
+## Install
+
+ - Clone the repo
+ - Navigate to the directory the clone resides at
+ - Navigate to the index.html in the directory via a browser
